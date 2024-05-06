@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/093db9da09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <div class="header_image"><a href="index.html"><img src="images/logo plant.png" alt=""></a></div>
+            <button class="header_mediab"><i class="fa-solid fa-magnifying-glass media_search"></i></button>
+            <form action="">
+                <div class="search_div">
+                    <input type="search" placeholder="What are you looking for?" id="SEARCH" name="searching">
+                    <button class="search_button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+            <div class="button_div">
+                <button class="login_media"><i class="fa-solid fa-user"></i></button>
+                <button class="login">LOG IN</button>
+                <button class="shopping_button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </header>
+        <!-- section -->
+        <section>
+            <div class="section_div">
+                <h2>CONTACT US</h2>
+                <form class="section_form" action="" name="form2">
+                    <div class="div1">
+                        <input type="text" id="name" placeholder="Name" name="NAME">
+                        <input type="email" id="email" placeholder="Email" name="EMAIL">
+                    </div>
+                    <div class="div2">
+                        <p>I have a delivery question about my order</p>
+                        <div class="radio1"> <input type="radio" name="radio111" value="recive" id="recive">
+                            <label for="recive">I did not receive my order</label>
+                        </div>
+                        <div class="radio2"><input type="radio" name="radio111" value="order" id="order">
+                            <label for="order">My order is incorrect or arrived damaged</label>
+                        </div>
+                        <div class="radio3">
+                            <input type="radio" name="radio111" value="cancel" id="cancel">
+                            <label for="cancel">Cancel my order</label>
+                        </div>
+                        <div class="radio4">
+                            <input type="radio" name="radio111" value="change" id="change">
+                            <label for="change">Change my shipping address</label>
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <p>Please provide more details below.</p>
+                        <textarea name="MASSAGE" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="div4">
+                        <input type="checkbox">
+                        <label for="" id="checkbox_label">I want to receive the newsletter </label>
+                    </div>
+                    <div class="div5">
+                        <button type="submit" class="section_button">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

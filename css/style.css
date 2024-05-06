@@ -1,0 +1,269 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    padding: 34px 72px;
+    background-color: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#SEARCH {
+    border: none;
+    background-color: transparent;
+    width: 510px;
+    padding-left: 16px;
+}
+
+.search_div {
+    width: 560px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 -2px 5px #F1ACEE;
+}
+
+.search_button {
+    width: 48px;
+    height: 48px;
+    background-color: #B052B5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#SEARCH::placeholder {
+    color: #9E8D9E;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+}
+
+#SEARCH {
+    outline: none;
+    color: #9E8D9E;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+}
+
+.search_button {
+    border: none;
+    margin-left: 0;
+}
+
+.fa-magnifying-glass {
+    color: #FFFFFF;
+}
+
+.login {
+    border: 1px solid #F30AEA;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 84px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.shopping_button {
+    background-color: #F30AEA;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+}
+
+.fa-cart-shopping {
+    color: #FFFFFF;
+}
+
+.button_div {
+    display: flex;
+    column-gap: 8px;
+}
+
+.media_search {
+    font-size: 32px;
+    display: none;
+}
+
+.header_mediab {
+    display: none;
+}
+
+.login_media {
+    display: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid #F30AEA;
+    background-color: transparent;
+}
+
+.fa-user {
+    color: #FFFFFF;
+}
+
+/* section */
+section {
+    background-image: url(../images/cover\ image.png);
+    height: 898px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-position: center;
+}
+
+.section_form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section_div {
+    padding: 48px 200px;
+    background-color: #1C1325CC;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 80px;
+}
+
+.div1 {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+#name,
+#email,
+#message {
+    padding-left: 22px;
+    outline: none;
+}
+
+
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    column-gap: 8px;
+    margin-bottom: 24px;
+}
+
+.div3 {
+    margin-bottom: 24px;
+}
+
+.div4 {
+    margin-bottom: 40px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 464px;
+    height: 112px;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px 4px 4px #F90CEF;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.section_button {
+    Width: 464px;
+    background-color: #F30AEA;
+    Height: 64px;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#name,
+#email {
+    background-color: #1C1325CC;
+    border: 1px solid #B052B5;
+    Width: 220px;
+    Height: 48px;
+    border-radius: 8px;
+}
+
+label {
+    color: #B052B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+#checkbox_label {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+input[type=radio] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    border: 2px solid #F30AEA;
+
+
+}
+
+input[type=radio]:checked::before {
+    content: "\f111";
+    font-family: "Font awesome 6 free";
+    font-weight: 900;
+    color: #F30AEA;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 2px solid #F30AEA;
+}
+
+input[type=checkbox]:checked::before {
+    content: "\f00c";
+    font-family: "Font awesome 6 free";
+    font-weight: 900;
+    color: #F30AEA;
+    text-align: center;
+ 
+}

@@ -1,0 +1,14 @@
+@media( max-width: 360px){
+header{
+padding: 34px 8px;
+}
+.login{
+    display: none;
+}
+
+.login_media{
+    display: block;
+}
+
+
+}

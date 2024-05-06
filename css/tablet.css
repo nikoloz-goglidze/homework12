@@ -1,0 +1,32 @@
+@media( max-width: 835px) {
+
+header{
+    padding: 34px 40px;
+}
+    .search_div {
+        display: none;
+
+  }
+  .header_mediab{
+    display: block;
+  }
+
+    .media_search{
+     
+        display: block;
+    
+    }
+    .header_mediab{
+background-color: transparent;
+border: none;
+    }
+    /* section */
+    section{
+        padding: 64px 40px;
+    }
+    .section_div{
+        padding: 48px 145px;
+    }
+    
+
+}
